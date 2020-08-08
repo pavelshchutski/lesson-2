@@ -1,19 +1,20 @@
-/* default styles 
-=====================================*/
-
+/* Default styles
+ =================================================== */
 * {
     box-sizing: border-box;
-    font-size: 0;
-} 
-
+    margin: 0;
+}
 .wrap {
     width: 100%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-}  
+}
 
-/* header 
-======================================*/
+/* Header content
+ =================================================== */
+header {
+    padding: 107px 0 40px;
+}
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -30,21 +31,21 @@ hr {
     background: #FF8B38;
     border: none;
 }
-h3 {
+
+h4 {
+    color: #86878B;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-/* main 
-======================================*/
-
+/* Main content
+ =================================================== */
 main {
     padding: 40px 0 107px;
     font-size: 0;
 }
 
-.container {
+.card {
     display: inline-block;
     width: 350px;
     margin: 0 16px;
@@ -55,18 +56,7 @@ main {
     height: 70px;
     margin: 0 auto;
     border: 2px solid #FF8B38;
-    border-radius: 50%; 
-}
-.icon--lamp{
-    background: url(lamp.png) no-repeat center center;
-}
-
-.icon--keyboard {
-    background: url(keyboard.png) no-repeat center center;
-}
-
-.icon--lightning {
-    background: url(lightning.png) no-repeat center center;
+    border-radius: 50%;
 }
 
 h2 {
@@ -77,8 +67,19 @@ h2 {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
 }
 
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
